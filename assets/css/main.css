@@ -3002,7 +3002,7 @@
 		list-style: none;
 		margin: calc(-0.5em + 1px) 0 0 1px;
 		padding: 0.5em 0;
-		width: 15em;
+		width: 10em;
 		box-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) ;
 	}
 
@@ -3910,7 +3910,7 @@
 	display: inline-block;
     height: 2em;
     line-height: 1.95em;
-    padding: 0.03em 1em;
+    padding: 0.04em 1em;
     border-radius: 6px;
 	box-shadow: inset 0 0 0 2px rgba(66, 115, 172, 0.5);}
 	
@@ -3940,39 +3940,47 @@
 	#banner sup.beta {vertical-align: 2em; }
 	#header sup.beta {vertical-align: 1.7em; font-size: 1em !important;}
 	
-	.alt .logoOPTA, .alt .beta { display:none;}
-	.alt .credit {left: -10px;}
+.alt .logoOPTA, .alt .beta { display:none;}
+.alt .credit { left: -10px; }
 	
-	.logoOPTA {
+.logoOPTA {
 	font-style: italic !important;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border: none;
-  /*
-  color:rgba(137, 124, 124, 1);
-  color:rgba(255, 255, 255, 0.9);
-  color:rgba(130, 123, 123, 0.9);
-  color:rgba(80, 91, 102, 0.6);
-  */
-  
-  color:rgba(152, 140, 138, 1);
-  text-align: center;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
-  font-size:4em;
-}
-	#header .logoOPTA {font-size: 4.5em;}
- #banner .logoOPTA {font-size: 2.5em;}
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border: none;
+	/*
+	color:rgba(137, 124, 124, 1);
+	color:rgba(255, 255, 255, 0.9);
+	color:rgba(130, 123, 123, 0.9);
+	color:rgba(80, 91, 102, 0.6);
+	*/
+	
+	color:rgba(152, 140, 138, 1);
+	text-align: center;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
+	font-size:4em;
+	}
+	
+#header .logoOPTA {
+	font-size: 4.5em;
+	}
+
+#banner .logoOPTA {
+	 font-size: 2.5em;
+	 }
  
- .credit { display: inline-block;
+.credit { 
+	display: inline-block;
     position: absolute;
     left: 13em;
     top: 0;
-    width: 200px;}
+    width: 200px;
+	}
 	
-	 .credit div {    
+.credit div {    
 	line-height: 1em !important;
     z-index: 888;
     font-style: italic;
@@ -3986,73 +3994,100 @@
 
 ol.lower-alpha {list-style-type: lower-alpha;}
 
-.homebtn { display:none !important;}
-#navButtonLogIn  {	
+.homebtn { 
+	display:none !important;
+	}
 
-						background: rgba(192, 192, 192, 0.75);
-						border-radius: 6px;
-						
-						content: '\f0c9';
-						display: block;
-						font-size: 16px;
-						height: 2.25em;
-						float: right;
-    					margin-right: 10px;
-						line-height: 2em;
-						position: relative;
-						text-align: center;
-						top: 0.5em;
-						width: 75px;
-}
+#navButtonLogIn  {
+	background: rgba(192, 192, 192, 0.75);
+	border-radius: 6px;
+	
+	content: '\f0c9';
+	display: block;
+	font-size: 16px;
+	height: 2.25em;
+	float: right;
+	margin-right: 10px;
+	line-height: 2em;
+	position: relative;
+	text-align: center;
+	top: 0.5em;
+	width: 75px;
+	}
 #navButtonLogIn a {     
 	text-decoration: none;
     color:#ffffff;
     border: 0;
     outline: 0;
 	font-size:0.8em;
-	    padding: 0 1em;
+	padding: 0 1em;
 	}
 
-header .icon.major { position:absolute; margin-top: -5px; font-size:0.8em; z-index: 100; padding: 1; width: 5em;
+header .icon.major { 
+	position:absolute; 
+	margin-top: -5px; 
+	font-size:0.8em; 
+	z-index: 100; 
+	padding: 1; 
+	width: 5em;
     height: 5em;
-     opacity: 0.9; right: 10%;}
-header .icon.major i { font-size: 3.6em; margin-top: 10px;} 	
-	header .icon.major i.sm { font-size: 3em; margin-top: 5px;} 
-
-
-.box.special.features section { padding: 0 0 5em 0;}
-
+	opacity: 0.9; 
+	right: 10%;
+	}
+header .icon.major i { 
+	font-size: 3.6em; 
+	margin-top: 10px;
+	} 	
+header .icon.major i.sm { 
+	font-size: 3em; 
+	margin-top: 5px;
+	} 
+.box.special.features section { 
+	padding: 0 0 5em 0;
+	}
 .box.special.features h3 {
 	margin-bottom: 0;
-	    width: 100%;
-		opacity: 0.4;
-		text-transform: uppercase;
-		float:left;
-		font-size:3em;	
-		font-style: italic !important;
-		-webkit-box-sizing: content-box;
-		-moz-box-sizing: content-box;
-		box-sizing: content-box;
-		border: none;
-		padding: 0;
-		margin-left:25%;
-  /*
-  color:rgba(137, 124, 124, 1);icon major
-  color:rgba(255, 255, 255, 0.9);icon major
-  color:rgba(130, 123, 123, 0.9);
-  color:rgba(80, 91, 102, 0.6);icon major
-  */
-  
-  color:rgba(152, 140, 138, 1);
-  text-align: left;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213)  ;}
-	
-	
-	.box.special.features h4 { float:left; /*border-top: dotted 1px #333333; padding: 1em 2em;*/     width: 300px;
-    margin-left: 20%;}
-	
-	.box.special.features .icon.major { top: -1.3em; margin: 2em 0 0 0;}
+	width: 100%;
+	opacity: 0.4;
+	text-transform: uppercase;
+	float:left;
+	font-size:3em;	
+	font-style: italic !important;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border: none;
+	padding: 0;
+	margin-left:25%;
+	/*
+	color:rgba(137, 124, 124, 1);icon major
+	color:rgba(255, 255, 255, 0.9);icon major
+	color:rgba(130, 123, 123, 0.9);
+	color:rgba(80, 91, 102, 0.6);icon major
+	*/
+	color:rgba(152, 140, 138, 1);
+	text-align: left;
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213);
+	}
+.box.special.features h4 { 
+	float:left; 					/*border-top: dotted 1px #333333; padding: 1em 2em;*/     
+	width: 300px;
+    margin-left: 20%;
+	}
+.box.special.features .icon.major { 
+	top: -1.3em; 
+	margin: 2em 0 0 0;
+	}
+
+form.survey label {
+    font-size: 1em;
+    padding-left: 0.5em;
+    
+    
+    
+    }
+
 	
 /*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
