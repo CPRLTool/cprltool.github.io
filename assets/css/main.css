@@ -3567,6 +3567,10 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+        
+        .box.special.features .icon.major { top: -1.3em !important; }
+        .box.special.features h3 { font-family: 1.5em !important; }
+        
 		.stepBox { width:auto !important; min-height:inherit !important; padding: 1em 2em !important;}
 		.stepBtw { width: 25px; min-height:inherit !important; padding: 24px 5px 0 5px!important;  }
 		
@@ -4043,7 +4047,7 @@ header .icon.major i.sm {
 	margin-top: 5px;
 	} 
 .box.special.features section { 
-	padding: 0 0 5em 0;
+	padding: 2em 0 2em 0;
 	}
 .box.special.features h3 {
 	margin-bottom: 0;
@@ -4077,17 +4081,15 @@ header .icon.major i.sm {
     margin-left: 20%;
 	}
 .box.special.features .icon.major { 
-	top: -1.3em; 
+	top: -5.3em; 
 	margin: 2em 0 0 0;
 	}
 
 form.survey label {
     font-size: 1em;
     padding-left: 0.5em;
-    
-    
-    
     }
-
+.threefeats { background-color: #ffffff !important; }
+.threefeats .box {box-shadow: none;}
 	
 /*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
