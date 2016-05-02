@@ -12,6 +12,13 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script type="text/javascript">
+        
+        
+        
+        </script>
+        
+        
 	</head>
 	<body>
 		<div id="page-wrapper">
@@ -45,132 +52,171 @@
 				</header>
 
 			<!-- Main -->
-				<section id="main" class="container 75%">
+				<section id="main" class="container 75% survey">
 					<header>
 						<h2>Acceptance Survey</h2>
-						<p>Tell us what you think about our little operation.</p>
+						<p>Do you agree or disagree with the following statements:</p>
 					</header>
+                    
 					<div class="box">
-						<form method="post" action="#" class="survey">
-							<div class="row uniform 50%">
-								<div class="12u">
-									<input type="text" name="title" id="title" value="" placeholder="Your Title" />
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="12u">
-									<div class="form-group">
-  <label for="sel1">What type of organization do your work in?</label>
-  <select class="form-control" id="sel1">
-    <option>Select</option>
-    <option>Foundation</option>
-    <option>Education Intermediary Organization</option>
-    <option>School</option>
-    <option>Other (Please describe)</option>
-  </select>
-</div>
-								</div>
-                                
-                                
-                                
-                                
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">1. <em>I find OPTA-Beta easy to use: </label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">2. I believe OPTA-Beta will be useful for my organization</em></label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">3. <em>OPTA-Beta will help my organization improve accountability</em></label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">4. <em>OPTA-Beta will help me report progress of my initiatives</em></label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">5. <em>OPTA-Beta will help inform conversations about progress</em></label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">6. <em>I will recommend OPTA-Beta to others</em></label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-<div class="12u">
-    <div class="form-group">
-      <label for="sel1">7. <em>Overall, I am satisfied with the experience of OPTA-Beta</em></label>
-      <select class="form-control" id="sel1">
-        <option>Select</option>
-        <option>Strongly Agree</option>
-        <option>Disagree</option>
-        <option>Strongly Disagree</option>
-        <option>N/A</option>
-      </select>
-    </div>
-</div>
-                                
-                                
-                                
-                                
-                                
-							</div>
+						<form method="post" action="#" id="surveyform" data-toggle="validator" role="form">
+							<div class="12u">
+    
+    
+ 						
                             
-							<div class="row uniform">
-								<div class="12u">
-									<ul class="actions align-center">
-										<li><input type="submit" value="Submit Survey" /></li>
-									</ul>
+                            <section class="questionaire">
+                           
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq1"><em>"I find OPTA-Beta easy to use"</em></label>
 								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq1" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq2"><em>"I believe OPTA-Beta will be useful for my organization"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq2" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq3"><em>"OPTA-Beta will help my organization improve accountability"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq3" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq4"><em>"OPTA-Beta will help me report progress of my initiatives"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq4" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq5"><em>"OPTA-Beta will help inform conversations about progress"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq5" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq6"><em>"I will recommend OPTA-Beta to others"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq6" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq7"><em>"Overall, I am satisfied with the experience of OPTA-Beta"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq7">        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+                            	<div class="12u 12u(mobilep)">
+									<textarea name="additional_comments" id="additional_comments" placeholder="Additional Comments" rows="6"></textarea>
+                                </div>
+                            </div>
+                            </section>
+                            
+                            <section id="personal_info">
+                            <div class="row uniform 50%">
+                            	<div class="12u 12u(mobilep)">
+									<input type="text" name="title" id="title" value="" placeholder="Your Title" required />
+                                </div>
+							</div>
+                            <div class="row uniform 50% form-group">
+                                    <div class="6u 12u(mobilep)">
+                                        <label for="sq_b">What type of organization do your work in?</label>
+                                    </div>
+                                    <div class="6u 12u(mobilep)">
+                                      <select class="form-control" id="sq_b" required>        
+                                        <option>Select</option>
+                                        <option>Foundation</option>
+                                        <option>Education Intermediary Organization</option>
+                                        <option>School</option>
+                                        <option>Other (Please describe below)</option>
+                                      </select>
+                                	</div>
+                                </div>
+                                <div class="row uniform 50%">
+                                    <div class="12u 12u(mobilep)">
+                                        <input type="text" name="other_org" id="other_org" value="" placeholder="Type of organization" class="" />
+                                    </div>
+                                </div>          
+                            
+
+                            </section>
+                            
+							<div class="row uniform 50%">
+								<ul class="actions align-center">
+									<li><input type="submit" value="Submit Survey" /></li>
+								</ul>
+							</div>
+                             
+                                
+                                
+                                
 							</div>
 						</form>
 					</div>
