@@ -2847,7 +2847,7 @@
 	}
 
 	#header {
-		background-color:hsl(240, 1%, 27%); /*hsla(212,45%,47%,0.95); */
+		background-color:hsla(0, 0%, 40%, 0.8); /*hsla(212,45%,47%,0.95); */
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -4198,4 +4198,9 @@ section.survey select#sq_b 			{ width: 100%; }
 #personal_info { padding: 50px 0; border-top: dashed 2px #ccc; }
 #additional_comments { margin:25px 0 50px; }
 	.featureBox { display:block; padding: 2em !important; }
-/*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
+/*peach:#e89980 darkblue:#4b515a slate:#4b515a   4b515a */
+
+.jumplink { }
+
+.fa-share-square:before {
+    content: "\f14d";  }
