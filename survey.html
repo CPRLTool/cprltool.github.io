@@ -17,7 +17,32 @@
         
         
         </script>
-        
+        <style type="text/css">
+		.credit {
+    display: inline-block;
+    left: 14em;
+    top: -20px;
+    width: 200px;
+    position: absolute;
+}
+
+.logo_CPRL {
+    margin: 1.1em 0 0 0.5em;
+	position:absolute;
+	left:5em;}
+	
+	.logo_PSP {
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    height: 2em;
+    /* line-height: 1.95em; */
+    padding: 0.6em 0.5em 0 0.5em;
+    border: none;
+    left: 1em;
+}
+
+		</style>
         
 	</head>
 	<body>
@@ -25,7 +50,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1><a href="index.html"><span class="logoOPTA">OPTA</span><sup class="beta">&beta;eta</sup></a> <span class="credit"> <a href="http://web.law.columbia.edu/public-research-leadership" target="_blank" class="navLink logo_CPRL"><img src="images/logo_CPRL.png" height="14" alt="CPRL" /></a></span></h1>
+					<span class="credit"><a href="http://www.publicsquarepartnership.org/about-us/" target="_blank" class="navLink logo_PSP"><img src="images/round.png" height="40" alt="Public Square Partnership" /></a> <a href="http://web.law.columbia.edu/public-research-leadership" target="_blank" class="navLink logo_CPRL"><img src="images/logo_CPRL.png" height="14" alt="CPRL" /></a></span> <h1><a href="index.html"><span class="logoOPTA">OPTA</span><sup class="beta">&beta;eta</sup></a></h1>
 					<nav id="nav">
 						<ul>
                                                              <li class="homebtn"><a href="index.html">Home</a></li>
@@ -33,8 +58,8 @@
 								<a href="#" class="icon fa-angle-down">About</a>
 								<ul>
 									<li><a href="aboutOPTA.html">About OPTA</a></li>
-									<li><a href="aboutCPRL.html">About CPRL</a></li>
-										
+									<li><a href="http://web.law.columbia.edu/public-research-leadership" target="_blank">About CPRL</a></li>
+									<li><a href="http://www.publicsquarepartnership.org/about-us/" target="_blank">About Public Square Partnership</a></li>
 									<li><a href="faqs.html">FAQs</a>
 									</li>
 								</ul>
@@ -54,7 +79,7 @@
 			<!-- Main -->
 				<section id="main" class="container 75% survey">
 					<header>
-						<h2>Acceptance Survey</h2>
+						<h2>OPTA Beta User Acceptance Survey</h2>
 						<p>Do you agree or disagree with the following statements:</p>
 					</header>
                     
@@ -84,7 +109,7 @@
 							</div>
 							<div class="row uniform 50%">
 								<div class="8u 12u(mobilep)">
-									<label for="sq2"><em>"I believe OPTA-Beta will be useful for my organization"</em></label>
+									<label for="sq2"><em>"OPTA-Beta will help me track the impact of my initiatives"</em></label>
 								</div>
 								<div class="4u 12u(mobilep)">
 								  <select class="form-control" id="sq2" required>        
@@ -99,7 +124,7 @@
 							</div>
 							<div class="row uniform 50%">
 								<div class="8u 12u(mobilep)">
-									<label for="sq3"><em>"OPTA-Beta will help my organization improve accountability"</em></label>
+									<label for="sq3"><em>"I believe OPTA-Beta will help my organization improve performance"</em></label>
 								</div>
 								<div class="4u 12u(mobilep)">
 								  <select class="form-control" id="sq3" required>        
@@ -114,7 +139,7 @@
 							</div>
 							<div class="row uniform 50%">
 								<div class="8u 12u(mobilep)">
-									<label for="sq4"><em>"OPTA-Beta will help me report progress of my initiatives"</em></label>
+									<label for="sq4"><em>"Overall, I am satisfied with the experience of OPTA-Beta"</em></label>
 								</div>
 								<div class="4u 12u(mobilep)">
 								  <select class="form-control" id="sq4" required>        
@@ -129,7 +154,7 @@
 							</div>
 							<div class="row uniform 50%">
 								<div class="8u 12u(mobilep)">
-									<label for="sq5"><em>"OPTA-Beta will help inform conversations about progress"</em></label>
+									<label for="sq5"><em>"I will recommend OPTA-Beta to others"</em></label>
 								</div>
 								<div class="4u 12u(mobilep)">
 								  <select class="form-control" id="sq5" required>        
@@ -142,36 +167,7 @@
                                   </select>
 								</div>
 							</div>
-							<div class="row uniform 50%">
-								<div class="8u 12u(mobilep)">
-									<label for="sq6"><em>"I will recommend OPTA-Beta to others"</em></label>
-								</div>
-								<div class="4u 12u(mobilep)">
-								  <select class="form-control" id="sq6" required>        
-                                    <option>Select</option>
-                                    <option>Strongly Agree</option>
-                                    <option>Agree</option>
-                                    <option>Disagree</option>
-                                    <option>Strongly Disagree</option>
-                                    <option>N/A</option>
-                                  </select>
-								</div>
-							</div>
-							<div class="row uniform 50%">
-								<div class="8u 12u(mobilep)">
-									<label for="sq7"><em>"Overall, I am satisfied with the experience of OPTA-Beta"</em></label>
-								</div>
-								<div class="4u 12u(mobilep)">
-								  <select class="form-control" id="sq7">        
-                                    <option>Select</option>
-                                    <option>Strongly Agree</option>
-                                    <option>Agree</option>
-                                    <option>Disagree</option>
-                                    <option>Strongly Disagree</option>
-                                    <option>N/A</option>
-                                  </select>
-								</div>
-							</div>
+							
 							<div class="row uniform 50%">
                             	<div class="12u 12u(mobilep)">
 									<textarea name="additional_comments" id="additional_comments" placeholder="Additional Comments" rows="6"></textarea>
@@ -208,15 +204,15 @@
 
                             </section>
                             
-							<div class="row uniform 50%">
-								<ul class="actions align-center">
-									<li><input type="submit" value="Submit Survey" /></li>
-								</ul>
+              
+                                
 							</div>
-                             
-                                
-                                
-                                
+						<div class="row uniform  50%">
+								<div class="12u">
+									<ul class="actions align-center">
+										<li><input type="submit" value="Submit Survey" /></li>
+									</ul>
+								</div>
 							</div>
 						</form>
 					</div>
