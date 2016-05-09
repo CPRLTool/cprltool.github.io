@@ -2089,7 +2089,7 @@
 	input[type="password"],
 	input[type="email"],
 	select {
-		height: 2.5em;
+		height: 3em;
 	}
 
 	textarea {
@@ -2202,7 +2202,7 @@
 		background: #fff;
 		border-radius: 6px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
-		margin: 0;
+		margin: 0 0 2em 0;
 		padding: 3em;
 	}
 
@@ -2346,8 +2346,7 @@
 			height: 5.5em;
 			line-height: 5.5em;
 			margin: 0 0 2em 0;
-			width: 10em; 
-			opacity:0.7;
+			width: 5.5em;
 		}
 
 			.icon.major:before {
@@ -3003,7 +3002,7 @@
 		list-style: none;
 		margin: calc(-0.5em + 1px) 0 0 1px;
 		padding: 0.5em 0;
-		width: 10em;
+		width: 15em;
 		box-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) ;
 	}
 
@@ -3568,10 +3567,6 @@
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
-        
-        .box.special.features .icon.major { top: -1.3em !important; }
-        .box.special.features h3 { font-family: 1.5em !important; }
-        
 		.stepBox { width:auto !important; min-height:inherit !important; padding: 1em 2em !important;}
 		.stepBtw { width: 25px; min-height:inherit !important; padding: 24px 5px 0 5px!important;  }
 		
@@ -3707,7 +3702,7 @@
 	@media screen and (max-width: 480px) {
 		
 		
-		.box.special.features h4 { float:left; width: 15em !important; margin-left: 5% !important;20em !important}
+		.box.special.features h4 { float:left; width: 15em !important; margin-left: 5% !important;}
 		
 		.stepBox { width:90% !important; min-height:inherit !important; padding: 1em 2em !important;}
 		.stepBtw { width: 100% !important;
@@ -3852,7 +3847,7 @@
 	
 	.panel-info>.panel-heading {
 		color: #4b515a;
-		background-color: rgba(78, 90, 100, 0.1);
+		background-color: rgba(66, 115, 172, 0.1);
 		border-color: #4b515a;
 		border-style: dotted;
 
@@ -3949,7 +3944,7 @@
 .alt .credit { left: -10px; }
 	
 .logoOPTA {
-	
+	font-style: italic !important;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
@@ -3960,20 +3955,17 @@
 	color:rgba(130, 123, 123, 0.9);
 	color:rgba(80, 91, 102, 0.6);
 	*/
-	font-size:4em;
-	color:#FFFFFF;
+	
+	color:rgba(152, 140, 138, 1);
 	text-align: center;
 	-o-text-overflow: clip;
 	text-overflow: clip;
-	/*
-	color:rgba(152, 140, 138, 1);
-	font-style: italic !important;
-	text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213);*/
-	
+	text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213) , -4px 5px 0 rgb(128,141,147) , -5px 4px 0 rgb(205,210,213) , -5px 6px 0 rgb(128,141,147) , -6px 5px 0 rgb(205,210,213) , -6px 7px 0 rgb(128,141,147) , -7px 6px 0 rgb(205,210,213) , -7px 8px 0 rgb(128,141,147) , -8px 7px 0 rgb(205,210,213) ;
+	font-size:4em;
 	}
 	
 #header .logoOPTA {
-	font-size: 4em;
+	font-size: 4.5em;
 	}
 
 #banner .logoOPTA {
@@ -4051,11 +4043,10 @@ header .icon.major i.sm {
 	margin-top: 5px;
 	} 
 .box.special.features section { 
-	/*padding: 2em 0 2em 0;*/
-	padding:0;
+	padding: 0 0 5em 0;
 	}
 .box.special.features h3 {
-	margin-bottom: 5px !important;
+	margin-bottom: 0;
 	width: 100%;
 	opacity: 0.4;
 	text-transform: uppercase;
@@ -4067,8 +4058,7 @@ header .icon.major i.sm {
 	box-sizing: content-box;
 	border: none;
 	padding: 0;
-	padding-bottom:0 !important;
-	margin:5%;
+	margin-left:25%;
 	/*
 	color:rgba(137, 124, 124, 1);icon major
 	color:rgba(255, 255, 255, 0.9);icon major
@@ -4079,34 +4069,16 @@ header .icon.major i.sm {
 	text-align: left;
 	-o-text-overflow: clip;
 	text-overflow: clip;
-	/*text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213);*/
+	text-shadow: 0 1px 0 rgb(128,141,147) , -1px 0 0 rgb(205,210,213) , -1px 2px 0 rgb(128,141,147) , -2px 1px 0 rgb(205,210,213) , -2px 3px 0 rgb(128,141,147) , -3px 2px 0 rgb(205,210,213) , -3px 4px 0 rgb(128,141,147) , -4px 3px 0 rgb(205,210,213);
 	}
 .box.special.features h4 { 
 	float:left; 					/*border-top: dotted 1px #333333; padding: 1em 2em;*/     
-	width: 25em;
+	width: 300px;
     margin-left: 20%;
-	margin-bottom: 3em;
-	
-	    
 	}
 .box.special.features .icon.major { 
-	top: -5em;
-	margin: 1em 0 0 0;
-	    opacity: 0.6;
-		    padding-top: 5px;
+	top: -1.3em; 
+	margin: 2em 0 0 0;
 	}
-
-form.survey label {
-    font-size: 1em;
-    }
-.threefeats 				{ background-color: #ffffff !important; }
-.threefeats .box 			{ box-shadow: none; }
-section.questionaire 				{ padding:0; }
-section.questionaire select 		{ width: 100%; float:right; }
-section.survey select#sq_b 			{ width: 100%; }
-.form-group 						{ padding: 0 !important; margin:0 !important; }
-
-#personal_info { padding: 50px 0; border-top: dashed 2px #ccc; }
-#additional_comments { margin:25px 0 50px; }
-	.featureBox { display:block; padding: 2em !important; }
+	
 /*peach:#e89980 darkblue:#4b515a slate:#4b515a*   4b515a/
