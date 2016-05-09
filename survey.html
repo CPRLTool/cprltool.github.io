@@ -12,13 +12,45 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <script type="text/javascript">
+        
+        
+        
+        </script>
+        <style type="text/css">
+		.credit {
+    display: inline-block;
+    left: 14em;
+    top: -20px;
+    width: 200px;
+    position: absolute;
+}
+
+.logo_CPRL {
+    margin: 1.1em 0 0 0.5em;
+	position:absolute;
+	left:5em;}
+	
+	.logo_PSP {
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    height: 2em;
+    /* line-height: 1.95em; */
+    padding: 0.6em 0.5em 0 0.5em;
+    border: none;
+    left: 1em;
+}
+
+		</style>
+        
 	</head>
 	<body>
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header">
-					<h1><a href="index.html"><span class="logoOPTA">OPTA</span><sup class="beta">&beta;eta</sup></a> <span class="credit"> <a href="http://web.law.columbia.edu/public-research-leadership" target="_blank" class="navLink logo_CPRL"><img src="images/logo_CPRL.png" height="14" alt="CPRL" /></a></span></h1>
+					<span class="credit"><a href="http://www.publicsquarepartnership.org/about-us/" target="_blank" class="navLink logo_PSP"><img src="images/round.png" height="40" alt="Public Square Partnership" /></a> <a href="http://web.law.columbia.edu/public-research-leadership" target="_blank" class="navLink logo_CPRL"><img src="images/logo_CPRL.png" height="14" alt="CPRL" /></a></span> <h1><a href="index.html"><span class="logoOPTA">OPTA</span><sup class="beta">&beta;eta</sup></a></h1>
 					<nav id="nav">
 						<ul>
                                                              <li class="homebtn"><a href="index.html">Home</a></li>
@@ -26,8 +58,8 @@
 								<a href="#" class="icon fa-angle-down">About</a>
 								<ul>
 									<li><a href="aboutOPTA.html">About OPTA</a></li>
-									<li><a href="aboutCPRL.html">About CPRL</a></li>
-										
+									<li><a href="http://web.law.columbia.edu/public-research-leadership" target="_blank" class="jumplink">About CPRL <i class="fa fa-share-square" aria-hidden="true"></i></a></li>
+									<li><a href="http://www.publicsquarepartnership.org/about-us/" target="_blank" class="jumplink">About PSP <i class="fa fa-share-square" aria-hidden="true"></i></a></li>
 									<li><a href="faqs.html">FAQs</a>
 									</li>
 								</ul>
@@ -45,35 +77,140 @@
 				</header>
 
 			<!-- Main -->
-				<section id="main" class="container 75%">
+				<section id="main" class="container 75% survey">
 					<header>
-						<h2>Survey</h2>
-						<p>Tell us what you think about our little operation.</p>
+						<h2>OPTA Beta User Acceptance Survey</h2>
+						<p>Do you agree or disagree with the following statements:</p>
 					</header>
+                    
 					<div class="box">
-						<form method="post" action="#">
+						<form method="post" action="#" id="surveyform" data-toggle="validator" role="form">
+							<div class="12u">
+    
+    
+ 						
+                            
+                            <section class="questionaire">
+                           
 							<div class="row uniform 50%">
-								<div class="6u 12u(mobilep)">
-									<input type="text" name="name" id="name" value="" placeholder="Name" />
+								<div class="8u 12u(mobilep)">
+									<label for="sq1"><em>"I find OPTA-Beta easy to use"</em></label>
 								</div>
-								<div class="6u 12u(mobilep)">
-									<input type="email" name="email" id="email" value="" placeholder="Email" />
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq1" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
 								</div>
 							</div>
 							<div class="row uniform 50%">
-								<div class="12u">
-									<input type="text" name="subject" id="subject" value="" placeholder="Subject" />
+								<div class="8u 12u(mobilep)">
+									<label for="sq2"><em>"OPTA-Beta will help me track the impact of my initiatives"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq2" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
 								</div>
 							</div>
 							<div class="row uniform 50%">
-								<div class="12u">
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+								<div class="8u 12u(mobilep)">
+									<label for="sq3"><em>"I believe OPTA-Beta will help my organization improve performance"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq3" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
 								</div>
 							</div>
-							<div class="row uniform">
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq4"><em>"Overall, I am satisfied with the experience of OPTA-Beta"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq4" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							<div class="row uniform 50%">
+								<div class="8u 12u(mobilep)">
+									<label for="sq5"><em>"I will recommend OPTA-Beta to others"</em></label>
+								</div>
+								<div class="4u 12u(mobilep)">
+								  <select class="form-control" id="sq5" required>        
+                                    <option>Select</option>
+                                    <option>Strongly Agree</option>
+                                    <option>Agree</option>
+                                    <option>Disagree</option>
+                                    <option>Strongly Disagree</option>
+                                    <option>N/A</option>
+                                  </select>
+								</div>
+							</div>
+							
+							<div class="row uniform 50%">
+                            	<div class="12u 12u(mobilep)">
+									<textarea name="additional_comments" id="additional_comments" placeholder="Additional Comments" rows="6"></textarea>
+                                </div>
+                            </div>
+                            </section>
+                            
+                            <section id="personal_info">
+                            <div class="row uniform 50%">
+                            	<div class="12u 12u(mobilep)">
+									<input type="text" name="title" id="title" value="" placeholder="Your Title" required />
+                                </div>
+							</div>
+                            <div class="row uniform 50% form-group">
+                                    <div class="6u 12u(mobilep)">
+                                        <label for="sq_b">What type of organization do your work in?</label>
+                                    </div>
+                                    <div class="6u 12u(mobilep)">
+                                      <select class="form-control" id="sq_b" required>        
+                                        <option>Select</option>
+                                        <option>Foundation</option>
+                                        <option>Education Intermediary Organization</option>
+                                        <option>School</option>
+                                        <option>Other (Please describe below)</option>
+                                      </select>
+                                	</div>
+                                </div>
+                                <div class="row uniform 50%">
+                                    <div class="12u 12u(mobilep)">
+                                        <input type="text" name="other_org" id="other_org" value="" placeholder="Type of organization" class="" />
+                                    </div>
+                                </div>          
+                            
+
+                            </section>
+                            
+              
+                                
+							</div>
+						<div class="row uniform  50%">
 								<div class="12u">
 									<ul class="actions align-center">
-										<li><input type="submit" value="Send Message" /></li>
+										<li><input type="submit" value="Submit Survey" /></li>
 									</ul>
 								</div>
 							</div>
