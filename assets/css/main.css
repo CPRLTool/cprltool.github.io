@@ -2011,12 +2011,15 @@
 	}
 
 	label {
-		color: #646464;
-		display: block;
-		font-size: 0.9em;
-		font-weight: 300;
-		margin: 0 0 1em 0;
+		    color: #386394;
+    display: block;
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0 0 1em 0;
+    text-align: left;
+    line-height: 1.4em;
 	}
+	label span { float: right; padding-right:5%;}
 
 	input[type="text"],
 	input[type="password"],
@@ -2352,18 +2355,28 @@
 			line-height: 5.5em;
 			margin: 1em;
 			width: 10em; 
-			opacity:0.7;
+			opacity:1;
 		}
 
 			.icon.major:before {
 				font-size: 2.5em;
 			}
 
+
+.accent1 h3, .accent1 h4  {color:hsla(300, 0%, 60%, 0.6); }
+	.accent2 h3, .accent2 h4 {color:hsla(300, 0%, 40%, 0.6); }
+	.accent3 h3, .accent3 h4 {color:hsla(300, 0%, 20%, 0.6); }
+	
+
+
+
+
 			.icon.major.accent1 {
 				color: #ffffff;
 				/*background-image:url('../../images/pic02.jpg');*/
 				
-		background-color:hsla(216, 4%, 72%, 0.5);
+		background-color:hsla(300, 0%, 60%, 0.6);
+		    padding-top: 7px;
 	
 	
 			}
@@ -2373,7 +2386,7 @@
 				/*background-image:url('../../images/pic01.jpg'); */
 				padding-top: 6px;
 				
-		background-color:hsla(240, 1%, 27%, 0.5);
+		background-color:hsla(300, 0%, 40%, 0.6);
 			}
 
 			.icon.major.accent3 {
@@ -2381,7 +2394,7 @@
 				/*background-image:url('../../images/pic04.jpg');*/
 				padding-top: 6px;
 				
-		background-color:hsla(300, 1%, 14%, 0.5);
+		background-color:hsla(300, 0%, 20%, 0.6);
 			}
 
 			.icon.major.accent4 {
@@ -4013,13 +4026,35 @@ background-color: hsla(212,45%,47%, 0.8);
     display: inline-block;
     height: 2em;
     /* line-height: 1.95em; */
-    padding: 0.2em 0 0 0;
+   
 	    border: none;
+		
+		
+    padding: 0.6em 0.5em 0 0.5em;
+  
+    left: 1em;
 		}
 	
-.logo_CPRL {
+	header.reveal.alt .logo_CPRL {
     margin: 0 0.5em;
-    position: relative;
+    position: relative; 
+	left: 1em;
+    top: 1.5em;}
+	
+	
+	header.reveal.alt .logo_PSP { 
+
+    padding: 0.2em 0 0 0;
+	    top: 1.5em;
+    left: 6.6em;
+	    }
+	
+	
+	
+.logo_CPRL {
+    margin: 1.1em 0 0 0.5em;
+	position:absolute;
+	left:5em;
     background-color: rgba(66, 115, 172, 1);
     display: inline-block;
     height: 2em;
@@ -4085,6 +4120,23 @@ background-color: hsla(212,45%,47%, 0.8);
 	
 	}
 	
+	#mobileLogo {	
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+    border: none;
+    font-size: 2em;
+    color: hsla(216,15%,75%,0.75);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    font-weight: bold;
+    position: absolute;
+    left: calc(50% - 1.5em);
+    top: 0.4em;
+	
+	}
+	
 #header .logoOPTA {
 	font-size: 4em;
 	    font-weight: bold;
@@ -4095,12 +4147,14 @@ background-color: hsla(212,45%,47%, 0.8);
 	     font-weight: bold;
 	 }
  
-.credit { 
-	display: inline-block;
-    left: 13em;
-    top: 0;
+.credit {
+    display: inline-block;
+    left: 14em;
+    top: -20px;
     width: 200px;
-	}
+    position: absolute;
+	
+}
 	
 .credit div {    
 	line-height: 1em !important;
@@ -4175,11 +4229,7 @@ header .icon.major i.sm {
 	    font-weight: bold;
 	}
 	
-	.accent1 h3, .accent1 h4  {color:hsla(216, 4%, 72%, 0.5); }
-	.accent2 h3, .accent2 h4 {color:hsla(240, 1%, 27%, 0.5); }
-	.accent3 h3, .accent3 h4 {color:hsla(300, 1%, 14%, 0.5); }
-	
-.box.special.feature h4 { 
+	.box.special.feature h4 { 
 	font-size: 1.2em;
 	line-height: 1.4em;
 	    font-style: italic;
@@ -4200,11 +4250,13 @@ form.survey label {
 .threefeats 				{ background-color: #ffffff !important; }
 .threefeats .box 			{ box-shadow: none; margin: 0 !important; padding: 0.5 !important; }
 section.questionaire 				{ padding:0; }
+
+.questionaire .uniform        { padding-bottom:1em;}
 section.questionaire select 		{ width: 100%; float:right; }
 section.survey select#sq_b 			{ width: 100%; }
 .form-group 						{ padding: 0 !important; margin:0 !important; }
 
-#personal_info { padding: 50px 0; border-top: dashed 2px #ccc; }
+#personal_info { padding: 30px 0; border-top: dashed 2px #ccc; margin-top: 30px;}
 #additional_comments { margin:25px 0 50px; }
 	.featureBox { display:block; padding: 2em !important; }
 /*peach:#e89980 darkblue:#4b515a slate:#4b515a   4b515a */
